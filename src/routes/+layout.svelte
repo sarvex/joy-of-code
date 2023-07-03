@@ -1,10 +1,12 @@
 <script>
-  import '../app.postcss';
+  import '../app.css';
 </script>
 
 <nav>
-  <a href="/">Home</a>
-  <a href="/posts">Posts</a>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/posts">Posts</a></li>
+  </ul>
 </nav>
 
 <slot />

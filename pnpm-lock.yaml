@@ -9,14 +9,14 @@ devDependencies:
     specifier: 1.44.1
     version: 1.44.1
   '@sveltejs/adapter-auto':
-    specifier: 3.2.2
-    version: 3.2.2(@sveltejs/kit@2.5.20)
+    specifier: 3.2.3
+    version: 3.2.3(@sveltejs/kit@2.5.21)
   '@sveltejs/adapter-vercel':
     specifier: 5.3.1
-    version: 5.3.1(@sveltejs/kit@2.5.20)
+    version: 5.3.1(@sveltejs/kit@2.5.21)
   '@sveltejs/kit':
-    specifier: 2.5.20
-    version: 2.5.20(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.18)(vite@5.2.12)
+    specifier: 2.5.21
+    version: 2.5.21(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.18)(vite@5.2.12)
   '@typescript-eslint/eslint-plugin':
     specifier: 7.12.0
     version: 7.12.0(@typescript-eslint/parser@7.12.0)(eslint@9.4.0)(typescript@5.4.5)
@@ -57,8 +57,8 @@ devDependencies:
     specifier: 3.8.5
     version: 3.8.5(postcss-load-config@6.0.1)(postcss@8.4.41)(svelte@4.2.18)
   tailwindcss:
-    specifier: 3.4.7
-    version: 3.4.7
+    specifier: 3.4.9
+    version: 3.4.9
   tslib:
     specifier: 2.6.3
     version: 2.6.3
@@ -594,21 +594,21 @@ packages:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
     dev: true
 
-  /@sveltejs/adapter-auto@3.2.2(@sveltejs/kit@2.5.20):
-    resolution: {integrity: sha512-Mso5xPCA8zgcKrv+QioVlqMZkyUQ5MjDJiEPuG/Z7cV/5tmwV7LmcVWk5tZ+H0NCOV1x12AsoSpt/CwFwuVXMA==}
+  /@sveltejs/adapter-auto@3.2.3(@sveltejs/kit@2.5.21):
+    resolution: {integrity: sha512-VbWzQdNuunHsqa/OqPLqdL3fpyz9tH1f5CawjeYpPcowMI7Ng727M1/Z20yK1L7vrF7L2sYDFeE8vELgUy1Ibg==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
     dependencies:
-      '@sveltejs/kit': 2.5.20(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.18)(vite@5.2.12)
+      '@sveltejs/kit': 2.5.21(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.18)(vite@5.2.12)
       import-meta-resolve: 4.1.0
     dev: true
 
-  /@sveltejs/adapter-vercel@5.3.1(@sveltejs/kit@2.5.20):
+  /@sveltejs/adapter-vercel@5.3.1(@sveltejs/kit@2.5.21):
     resolution: {integrity: sha512-0iz+Y2ZWM1royXNkNS4TGNYFsMazRckYN+GrJsRq1utzss1Xfoax7C5eafzrsQLPitoLeXBgE31K5abrJ7UgxA==}
     peerDependencies:
       '@sveltejs/kit': ^2.4.0
     dependencies:
-      '@sveltejs/kit': 2.5.20(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.18)(vite@5.2.12)
+      '@sveltejs/kit': 2.5.21(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.18)(vite@5.2.12)
       '@vercel/nft': 0.27.1
       esbuild: 0.20.2
     transitivePeerDependencies:
@@ -616,8 +616,8 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/kit@2.5.20(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.18)(vite@5.2.12):
-    resolution: {integrity: sha512-47rJ5BoYwURE/Rp7FNMLp3NzdbWC9DQ/PmKd0mebxT2D/PrPxZxcLImcD3zsWdX2iS6oJk8ITJbO/N2lWnnUqA==}
+  /@sveltejs/kit@2.5.21(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.18)(vite@5.2.12):
+    resolution: {integrity: sha512-zHkaVZB5WNKVtosPhpPHLLvCdhUs3j6rRhDjRcXz9Mi7ZOeMe+xpzFkm7vs7RYQKMWDPUIfDngFDM3iGPyntMw==}
     engines: {node: '>=18.13'}
     hasBin: true
     requiresBuild: true
@@ -2854,8 +2854,8 @@ packages:
       periscopic: 3.1.0
     dev: true
 
-  /tailwindcss@3.4.7:
-    resolution: {integrity: sha512-rxWZbe87YJb4OcSopb7up2Ba4U82BoiSGUdoDr3Ydrg9ckxFS/YWsvhN323GMcddgU65QRy7JndC7ahhInhvlQ==}
+  /tailwindcss@3.4.9:
+    resolution: {integrity: sha512-1SEOvRr6sSdV5IDf9iC+NU4dhwdqzF4zKKq3sAbasUWHEM6lsMhX+eNN5gkPx1BvLFEnZQEUFbXnGj8Qlp83Pg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:

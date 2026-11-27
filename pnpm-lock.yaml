@@ -33,14 +33,14 @@ importers:
         specifier: 9.39.5
         version: 9.39.5(jiti@1.21.0)(supports-color@7.2.0)
       eslint-config-prettier:
-        specifier: 10.1.8
-        version: 10.1.8(eslint@9.39.5(jiti@1.21.0)(supports-color@7.2.0))
+        specifier: 10.1.9
+        version: 10.1.9(eslint@9.39.5(jiti@1.21.0)(supports-color@7.2.0))
       eslint-plugin-svelte:
         specifier: 3.24.1
         version: 3.24.1(eslint@9.39.5(jiti@1.21.0)(supports-color@7.2.0))(svelte@5.40.1)
       mdsvex:
-        specifier: 0.12.6
-        version: 0.12.6(svelte@5.40.1)
+        specifier: 0.12.8
+        version: 0.12.8(svelte@5.40.1)
       postcss:
         specifier: 8.5.6
         version: 8.5.6
@@ -48,11 +48,11 @@ importers:
         specifier: 6.0.1
         version: 6.0.1(jiti@1.21.0)(postcss@8.5.6)(yaml@2.4.2)
       prettier:
-        specifier: 3.10.0
-        version: 3.10.0
+        specifier: 3.10.1
+        version: 3.10.1
       prettier-plugin-svelte:
         specifier: 3.5.2
-        version: 3.5.2(prettier@3.10.0)(svelte@5.40.1)
+        version: 3.5.2(prettier@3.10.1)(svelte@5.40.1)
       svelte:
         specifier: 5.40.1
         version: 5.40.1
@@ -845,8 +845,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-prettier@10.1.8:
-    resolution: {integrity: sha512-82GZUjRS0p/jganf6q1rEO25VSoHH0hKPCTrgillPjdI/3bgBhAE1QzHrHTizjpRvy6pGAvKjDJtk2pF9NDq8w==}
+  eslint-config-prettier@10.1.9:
+    resolution: {integrity: sha512-JnOR0K4u67CWOiSS3vaduGlLUWS32lGiyglMIV6AyvK9DBRpS+QhR2ESKaUe2eWGRsdVmrxy77yaOk2hzDa4Bg==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -1108,8 +1108,8 @@ packages:
   magic-string@0.30.19:
     resolution: {integrity: sha512-2N21sPY9Ws53PZvsEpVtNuSW+ScYbQdp4b9qUaL+9QkHUrGFKo56Lg9Emg5s9V/qrtNBmiR01sYhUOwu3H+VOw==}
 
-  mdsvex@0.12.6:
-    resolution: {integrity: sha512-pupx2gzWh3hDtm/iDW4WuCpljmyHbHi34r7ktOqpPGvyiM4MyfNgdJ3qMizXdgCErmvYC9Nn/qyjePy+4ss9Wg==}
+  mdsvex@0.12.8:
+    resolution: {integrity: sha512-v2sbRA9QWf0tpYWfREI5Kq7OqqrqoUzfmMKbgdOoWGfPDLc1JYU4EgDDF0N9WFhmjFW5agKrYwo/mDVutBKWKw==}
     peerDependencies:
       svelte: ^3.56.0 || ^4.0.0 || ^5.0.0-next.120
 
@@ -1312,8 +1312,8 @@ packages:
       prettier: ^3.0.0
       svelte: ^3.2.0 || ^4.0.0-next.0 || ^5.0.0-next.0
 
-  prettier@3.10.0:
-    resolution: {integrity: sha512-mBi4765LgjO1PFjlEs7pUeK0nb1bw71c+N4/ItfeUWNdY5cV2pRKaFpbbFRYmDJMO+5ZwzGxHRqHxFZna7iv5w==}
+  prettier@3.10.1:
+    resolution: {integrity: sha512-70vp3ZUYoPlFbF9uiTdXHUUCGEIp7d4+6p+8DYbkm2jP7x/3i/paXVF6dopSI3zd/CEitrZN1rc4i85xWmmXlg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -2365,7 +2365,7 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-prettier@10.1.8(eslint@9.39.5(jiti@1.21.0)(supports-color@7.2.0)):
+  eslint-config-prettier@10.1.9(eslint@9.39.5(jiti@1.21.0)(supports-color@7.2.0)):
     dependencies:
       eslint: 9.39.5(jiti@1.21.0)(supports-color@7.2.0)
 
@@ -2625,7 +2625,7 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  mdsvex@0.12.6(svelte@5.40.1):
+  mdsvex@0.12.8(svelte@5.40.1):
     dependencies:
       '@types/mdast': 4.0.4
       '@types/unist': 2.0.6
@@ -2776,12 +2776,12 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-svelte@3.5.2(prettier@3.10.0)(svelte@5.40.1):
+  prettier-plugin-svelte@3.5.2(prettier@3.10.1)(svelte@5.40.1):
     dependencies:
-      prettier: 3.10.0
+      prettier: 3.10.1
       svelte: 5.40.1
 
-  prettier@3.10.0: {}
+  prettier@3.10.1: {}
 
   prism-svelte@0.4.7: {}
 
